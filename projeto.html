@@ -7,11 +7,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <style>
+        .container {
+            max-width: 2000px;
+            margin: 0 auto;
+            padding: 0 15px;
+            box-sizing: border-box;
+        }
+
         .vl {
             border-left: 3px solid black;
             height: 270px;
             position: absolute;
             left: 50%;
+            /* Criação da Linha preta no meio da página */
             margin-left: -180px;
             margin-top: 60px;
             top: 0;
@@ -20,18 +28,30 @@
         img {
             border-radius: 50%;
             margin-top: 85px;
+            /* Css da foto de perfil do colaborador*/
             margin-left: 124px;
         }
 
         .imagem2 {
             vertical-align: top;
             margin-left: 800px;
+            /* Css da imagem no canto superior direito */
             margin-top: 92px;
+        }
+
+        .imagem3 {
+            margin-right: 700px;
+            margin-left: -82px;
+            margin-bottom: -400px;
+            margin-top: -165px;
+            vertical-align: top;
+
         }
 
         h1 {
             margin-left: 550px;
-            margin-top: -165px;
+            margin-top: -200px;
+            /* Css do nome do Colaborador */
             font-family: Arial, Helvetica, sans-serif;
         }
 
@@ -104,31 +124,33 @@
 </head>
 
 <body>
+    <div class="container">
+        <img src="https://mundodoaredarefrigeracao.com.br/wp-content/uploads/2020/07/15192582_1143737489055988_4939714424176853818_n.png"
+            alt="Frio peças logo" width="165" height="165">
+        <img src="https://www.1618investimentos.com/wp-content/uploads/gpw.svg" alt="imagem boa de trabalhar"
+            width="150" height="120" class="imagem2">
+        <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81q1aPA_y3hTJ7KMQfZMmIRGsr40cZShuwMcu_H0dPD1npGW8Jnt-VnAwuvpgzFHmiAMN8ZcifuVblBwvVeaX4Vy-EZCWw=w1366-h625"
+            alt="nossomelhor" width="600" height="300" class="imagem3">
 
-    <img src="https://mundodoaredarefrigeracao.com.br/wp-content/uploads/2020/07/15192582_1143737489055988_4939714424176853818_n.png"
-        alt="Frio peças logo" width="165" height="165">
-    <img src="https://www.1618investimentos.com/wp-content/uploads/gpw.svg" alt="imagem boa de trabalhar" width="150"
-        height="120" class="imagem2">
+        <div class="vl"></div>
+        <h1 style="font-size:35px;">Nome do Colaborador</h1>
+        <p style="font-size: 21px;" class="cargo">Cargo do colaborador</p>
+        <p style="font-size: 20px;" class="email">outlook@friopecas.com.br</p>
+        <p style="font-size: 20px;" class="filial">Filial do Colaborador - Estado</p>
+        <p style="font-size: 19px;" class="numero">(XX) X XXXX.XXXX</p>
 
-    <div class="vl"></div>
-    <h1 style="font-size:35px;">Nome do Colaborador</h1>
-    <p style="font-size: 21px;" class="cargo">Cargo do colaborador</p>
-    <p style="font-size: 20px;" class="email">outlook@friopecas.com.br</p>
-    <p style="font-size: 20px;" class="filial">Filial do Colaborador - Estado</p>
-    <p style="font-size: 19px;" class="numero">(XX) X XXXX.XXXX</p>
+        <i class="material-icons my-email" style="color:#0D35B3;">email</i> <!--Retorna o ícone do email-->
+        <i class="material-icons my-map" style="color:#0D35B3;">place</i> <!--Retorna o ícone da localização-->
+        <i class="material-icons my-call" style="color:#0D35B3;">call</i> <!--Retorna o ícone do número-->
 
-    <i class="material-icons my-email" style="color:#0D35B3;">email</i> <!--Retorna o ícone do email-->
-    <i class="material-icons my-map" style="color:#0D35B3;">place</i> <!--Retorna o ícone da localização-->
-    <i class="material-icons my-call" style="color:#0D35B3;">call</i> <!--Retorna o ícone do número-->
-
-    <!--Agora os ícones vindouros do fontAwesome 4-->
+        <!--Agora os ícones vindouros do fontAwesome 4-->
 
 
-    <i class="fa fa-globe" style="color: #6ED0E8;"></i>
-    <i class="fa fa-instagram" style="color: #6ED0E8;"></i>
-    <i class="fa fa-linkedin" style="color: #6ED0E8;"></i>
-    <i class="fa fa-youtube-play" style="color: #6ED0E8;"></i>
-
+        <i class="fa fa-globe" style="color: #6ED0E8;"></i>
+        <i class="fa fa-instagram" style="color: #6ED0E8;"></i>
+        <i class="fa fa-linkedin" style="color: #6ED0E8;"></i>
+        <i class="fa fa-youtube-play" style="color: #6ED0E8;"></i>
+    </div>
 </body>
 
 </html>
