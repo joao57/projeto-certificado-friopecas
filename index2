@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <title>Profile Picture</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mistress+Benedict+Brush&display=swap">
+    <style>
+        .myDiv {
+            width: 100%;
+            height: 65px;
+            background: linear-gradient(to bottom right, #18befe, #0036c2);
+            position: relative;
+            bottom: 1;
+            left: 50%;
+            transform: translateX(-50%);
+            margin-top: 20px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 100px;
+        }
+
+        .container {
+            margin: 0 auto;
+            padding: 0 15px;
+            max-width: 1200px;
+            bottom: 0;
+        }
+
+        .vl {
+            border-left: 3px solid black;
+            height: 240px;
+            position: absolute;
+            left: 50%;
+            margin-left: -180px;
+            margin-top: 60px;
+            top: 0;
+        }
+
+        img {
+            border-radius: 50%;
+            margin-top: 85px;
+            margin-left: 40px;
+        }
+
+        .imagem2 {
+            vertical-align: top;
+            margin-left: 800px;
+            margin-top: 92px;
+        }
+
+        h1 {
+            margin-left: 550px;
+            margin-top: -200px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .cargo {
+            margin-left: 550px;
+            margin-top: -25px;
+            color: #4C90C2;
+        }
+
+        .email {
+            margin-left: 590px;
+            margin-top: 0px;
+            color: #2076B5;
+        }
+
+        .filial {
+            margin-left: 590px;
+            margin-top: -10px;
+            color: #2076B5;
+        }
+
+        .numero {
+            margin-left: 590px;
+            margin-top: -10px;
+            color: #2076B5;
+        }
+
+        .material-icons.my-email {
+            margin-left: 558px;
+            margin-top: -103px;
+            vertical-align: top;
+            font-size: 18px;
+        }
+
+        .material-icons.my-map {
+            margin-left: -23px;
+            margin-top: -72px;
+            vertical-align: top;
+            font-size: 18px;
+        }
+
+        .material-icons.my-call {
+            margin-left: -19px;
+            margin-top: -38px;
+            vertical-align: top;
+            font-size: 18px;
+        }
+
+        .fa-globe {
+            margin-left: -28px;
+            margin-top: 8px;
+            font-size: 24px;
+        }
+
+        .fa-instagram {
+            margin-left: 15px;
+            font-size: 24px;
+        }
+
+        .fa-linkedin {
+            margin-left: 15px;
+            font-size: 24px;
+        }
+
+        .fa-youtube-play {
+            margin-left: 15px;
+            font-size: 24px;
+        }
+
+        .rodape {
+            margin-top: 10px;
+            color: #575757;
+            font-size: 10px;
+            text-align: justify;
+        }
+
+        h2 {
+            font-family: 'LCT Picon Extra-bold', 'Masny Extra Bold', Arial, Helvetica, sans-serif;
+            color: white;
+            font-size: 45px;
+            margin-left: 250px;
+        }
+
+        h3 {
+            color: white;
+            font-size: 25px;
+            margin-right: 100px;
+            font-family: 'Mistress Benedict Brush', cursive;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="https://mundodoaredarefrigeracao.com.br/wp-content/uploads/2020/07/15192582_1143737489055988_4939714424176853818_n.png"
+            alt="Frio peças logo" width="165" height="165">
+        <img src="https://www.1618investimentos.com/wp-content/uploads/gpw.svg" alt="imagem boa de trabalhar"
+            width="150" height="120" class="imagem2">
+
+
+        <div class="vl"></div>
+        <h1 style="font-size:35px;">Nome do Colaborador</h1>
+        <p style="font-size: 21px;" class="cargo">Cargo do colaborador</p>
+        <p style="font-size: 20px;" class="email">outlook@friopecas.com.br</p>
+        <p style="font-size: 20px;" class="filial">Filial do Colaborador - Estado</p>
+        <p style="font-size: 19px;" class="numero">(XX) X XXXX.XXXX</p>
+
+        <i class="material-icons my-email" style="color:#0D35B3;">email</i>
+        <i class="material-icons my-map" style="color:#0D35B3;">place</i>
+        <i class="material-icons my-call" style="color:#0D35B3;">call</i>
+
+        <i class="fa fa-globe" style="color: #6ED0E8;"></i>
+        <i class="fa fa-instagram" style="color: #6ED0E8;"></i>
+        <i class="fa fa-linkedin" style="color: #6ED0E8;"></i>
+        <i class="fa fa-youtube-play" style="color: #6ED0E8;"></i>
+    </div>
+
+    <div class="myDiv">
+       <h2 style="margin-left: 120px;">FRIOPEÇAS</h2>
+       <h3 style="margin-right: 40px;">Nosso clima deixa qualquer ambiente agradável.</h3>
+    </div>
+
+    <div>
+        <h4 class="rodape">
+            Esta mensagem é destinada exclusivamente ao seu destinatário e as informações nela contidas são confidenciais, protegidas por sigilo profissional ou por lei. É vedada a transmissão ou divulgação de seu conteúdo a terceiros, que não seus destinatários. O uso não autorizado de tais informações, incluindo, mas não se limitando a, qualquer divulgação, cópia, distribuição ou qualquer ação ou omissão, é proibido e sujeitará o agente às penalidades cabíveis. Qualquer opinião que porventura esteja contida nesta mensagem expressa única e exclusivamente a própria opinião do autor e não representa a opinião da empresa.
+
+            This message is intended solely for its addressee and the information contained therein is confidential, and protected by professional privilege or by law. The transmission or disclosure of its contents to third parties other than its addressees is forbidden. Unauthorized use of such information, including, but not limited to, any disclosure, copy, distribution or any action or omission, is prohibited and will subject the agent to the applicable penalties. The opinions that may be contained in this message only and exclusively express the opinion of the author and do not represent the opinion of the company
+        </h4>
+    </div>
+</body>
+
+</html>
